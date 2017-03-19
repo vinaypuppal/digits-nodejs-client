@@ -1,11 +1,16 @@
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
 
+This is fork of https://github.com/vvanghelue/digits-server-client with following changes
+- rewrote in es6 using `async` and `await` (but transpiled using `async-to-gen` to support Node.js >= v6)
+- added better error handeling support
+- implemented phoneNumber validation using [libphonenumber-js](https://www.npmjs.com/package/libphonenumber-js)
+
 # What ?
 Node.js alternative to https://docs.fabric.io/web/digits/getting-started.html
 
 ### Getting started
 
-`digits-server-client` need the latest Node.js that supports ES6(recommended v6.10), you can check that requirements with [node.green](https://node.green). Or if you still wanna use older version, you can use it with [babel-register](https://babeljs.io/docs/usage/babel-register/).
+`digits-server-client` need the latest Node.js(recommended v6.10) that supports ES6, you can check that requirements with [node.green](https://node.green). Or if you still wanna use older version, you can use it with [babel-register](https://babeljs.io/docs/usage/babel-register/).
 
 ### Installation
 
