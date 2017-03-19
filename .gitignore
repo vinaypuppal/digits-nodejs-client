@@ -1,1 +1,4 @@
 node_modules
+transpiled-index.js
+*.log
+.DS_Store
