@@ -1,7 +1,7 @@
 'use strict'
 
 var DigitsClient = require('./index')
-// var DigitsClient = require('digits-server-client');
+// var DigitsClient = require('digits-nodejs-client');
 
 var digits = new DigitsClient({
   digitsConsumerKey: 'myConsumerKey',
