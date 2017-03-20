@@ -10,19 +10,19 @@ Node.js alternative to https://docs.fabric.io/web/digits/getting-started.html
 
 ### Getting started
 
-`digits-server-client` need the latest Node.js(recommended v6.10) that supports ES6, you can check that requirements with [node.green](https://node.green). Or if you still wanna use older version, you can use it with [babel-register](https://babeljs.io/docs/usage/babel-register/).
+`digits-nodejs-client` need the latest Node.js(recommended v6.10) that supports ES6, you can check that requirements with [node.green](https://node.green). Or if you still wanna use older version, you can use it with [babel-register](https://babeljs.io/docs/usage/babel-register/).
 
 ### Installation
 
 ```sh
-$ npm install --save digits-server-client
+$ npm install --save digits-nodejs-client
 ```
 
 ### How to use
-After you install the package. You can include `digits-server-client` within your code like this:
+After you install the package. You can include `digits-nodejs-client` within your code like this:
 
 ```jss
-var DigitsClient = require('digits-server-client');
+var DigitsClient = require('digits-nodejs-client');
 ```
 
 ### Create client

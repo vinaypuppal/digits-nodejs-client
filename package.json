@@ -1,6 +1,6 @@
 {
   "name": "digits-nodejs-client",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Digits webclient for node.js",
   "main": "transpiled-index.js",
   "files": [
